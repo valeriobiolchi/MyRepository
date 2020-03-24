@@ -1,8 +1,8 @@
 *>(c) 2005 - 2019 Veryant
 *>compiler version: isCOBOL release 2020 R1 build#1011.6-20200306-29405
-*>source file name:  C:\Users\valer\git\MyRepository\ApachePoi-excel\source\excel-sample.cbl
-*>date generated  :  Tue Mar 24 17:03:40 CET 2020
-*>compiler options:  -tasks -jj -lo=C:/Users/valer/git/MyRepository/ApachePoi-excel/list -sp=cpy;screenpgm;fdsl -dx -esme=100 -od=C:/Users/valer/git/MyRepository/ApachePoi-excel/output -eo=C:/Users/valer/git/MyRepository/ApachePoi-excel/errs -smat -d
+*>source file name:  C:\Users\valer\git\MyRepositoryTest\ApachePoi-excel\source\excel-sample.cbl
+*>date generated  :  Tue Mar 24 17:40:51 CET 2020
+*>compiler options:  -tasks -jj -lo=C:/Users/valer/git/MyRepositoryTest/ApachePoi-excel/list -sp=cpy;screenpgm;fdsl -dx -esme=100 -od=C:/Users/valer/git/MyRepositoryTest/ApachePoi-excel/output -eo=C:/Users/valer/git/MyRepositoryTest/ApachePoi-excel/errs -smat -d
 *>>>SOURCE FORMAT FREE                                             
        program-id. excel-sample. 
 
@@ -29,7 +29,6 @@
            class j-hssfdateutil as "org.apache.poi.hssf.usermodel.HSSFDateUtil"
            class j-simpledateformat as "java.text.SimpleDateFormat"                                    
            . 
-           
 
        working-storage section. 
        77 w-cell object reference j-cell. 

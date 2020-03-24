@@ -24,7 +24,6 @@
            class j-hssfdateutil as "org.apache.poi.hssf.usermodel.HSSFDateUtil"
            class j-simpledateformat as "java.text.SimpleDateFormat"                                    
            .
-           
 
        working-storage section.
        77 w-cell object reference j-cell.
