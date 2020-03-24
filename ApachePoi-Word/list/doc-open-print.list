@@ -1,8 +1,8 @@
 *>(c) 2005 - 2019 Veryant
 *>compiler version: isCOBOL release 2020 R1 build#1011.6-20200306-29405
-*>source file name:  C:\Work\tests\WorkspaceGit\ApachePoi-Word\source\doc-open-print.cbl
-*>date generated  :  Mon Mar 23 15:56:07 CET 2020
-*>compiler options:  -tasks -jj -lo=C:/Work/tests/WorkspaceGit/ApachePoi-Word/list -sp=cpy;screenpgm;fdsl -dx -esme=100 -od=C:/Work/tests/WorkspaceGit/ApachePoi-Word/output -eo=C:/Work/tests/WorkspaceGit/ApachePoi-Word/errs -smat -d
+*>source file name:  C:\Users\valer\git\MyRepository\ApachePoi-Word\source\doc-open-print.cbl
+*>date generated  :  Tue Mar 24 14:16:17 CET 2020
+*>compiler options:  -tasks -jj -lo=C:/Users/valer/git/MyRepository/ApachePoi-Word/list -sp=cpy;screenpgm;fdsl -dx -esme=100 -od=C:/Users/valer/git/MyRepository/ApachePoi-Word/output -eo=C:/Users/valer/git/MyRepository/ApachePoi-Word/errs -smat -d
 *>>>SOURCE FORMAT FREE                                             
        program-id. doc-open-print. 
 

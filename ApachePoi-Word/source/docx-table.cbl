@@ -74,6 +74,8 @@
          w-jFileOutputStream:>close()
          
          display message "docx created"
+         
+         display message "salca"
             
        catch exception
          display message exception-object:>getMessage()
