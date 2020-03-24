@@ -63,10 +63,12 @@
 
        procedure division.
        main.
+       
            perform create-xlsx.
            perform write-excel.
            display "execel-file.xlsx created".
            display omitted.
+           accept omitted.
            
            perform create-xls.
            perform write-excel.
@@ -173,6 +175,8 @@
                 
              w-workbook:>write(w-output)
              w-output:>close()
+
+             
 
            catch exception
              display message exception-object:>getMessage()
