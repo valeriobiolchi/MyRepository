@@ -1,0 +1,35 @@
+*>(c) 2005 - 2019 Veryant
+*>compiler version: isCOBOL release 2020 R1 build#1011.6-20200306-29405
+*>source file name:  C:\Work\tests\WorkspaceGit\ApachePoi-Word\source\doc-open-print.cbl
+*>date generated  :  Mon Mar 23 15:56:07 CET 2020
+*>compiler options:  -tasks -jj -lo=C:/Work/tests/WorkspaceGit/ApachePoi-Word/list -sp=cpy;screenpgm;fdsl -dx -esme=100 -od=C:/Work/tests/WorkspaceGit/ApachePoi-Word/output -eo=C:/Work/tests/WorkspaceGit/ApachePoi-Word/errs -smat -d
+*>>>SOURCE FORMAT FREE                                             
+       program-id. doc-open-print. 
+
+       configuration section. 
+       repository. 
+           class jFile as "java.io.File"
+           class jFileOutputStream as "java.io.FileOutputStream"
+           class XWPFDocument as "org.apache.poi.xwpf.usermodel.XWPFDocument"
+           class OPCPackage as "org.apache.poi.openxml4j.opc.OPCPackage"
+           class Desktop as "java.awt.Desktop"
+           . 
+           
+       working-storage section. 
+       77 w-jFile             object reference jFile. 
+       77 w-Desktop           object reference Desktop. 
+       77 w-jFileOutputStream object reference jFileOutputStream. 
+       77 w-XWPFDocument      object reference XWPFDocument. 
+       77 mytext              pic x any length. 
+
+       procedure division. 
+       main. 
+ 
+       try
+         set w-JFile to jFile:>"new"("C:\temp\OpenOffice.odt")
+         Desktop:>"getDesktop":>"print"(w-JFile)
+       catch exception
+         display message exception-object:>"getMessage"()
+         
+       end-try. 
+       goback. 
